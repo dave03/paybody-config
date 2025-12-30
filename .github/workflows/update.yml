@@ -5,6 +5,9 @@ on:
     - cron: "0 3 1 * *"   # רץ ב־1 לחודש ב־03:00 UTC
   workflow_dispatch:       # מאפשר הפעלה ידנית
 
+permissions:
+  contents: write
+
 jobs:
   update-config:
     runs-on: ubuntu-latest
