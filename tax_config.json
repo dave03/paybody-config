@@ -1,0 +1,11 @@
+{
+  "nationalInsurance": {
+    "threshold": 7122,
+    "lowRate": 0.004,
+    "highRate": 0.07
+  },
+  "healthInsurance": {
+    "lowRate": 0.031,
+    "highRate": 0.05
+  }
+}
